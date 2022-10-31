@@ -16,6 +16,7 @@ body {
   min-height: 100vh;
   background-color: rgb(0, 0, 0);
   color: #eee;
+  position: center;
 }
 header,
 main,
@@ -32,13 +33,13 @@ header h1 {
 }
 header h3 {
   color: orangered;
+  
 }
 
 button {
   color: rgb(43, 43, 71);
   width: 220px;
   font-size: "Open Sans";
-
 }
 
 p {
