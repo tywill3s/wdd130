@@ -36,8 +36,6 @@ function doStuff(data) {
       const ranData = data.population;
       planet.innerHTML = "Population: " + ranData;
     }
-  var button = document.getElementById("button");
-  button.addEventListener('click',random);
   }
 }
 
