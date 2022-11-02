@@ -11,7 +11,6 @@ function guess(){
 
 function color(){
     let guessColor = document.getElementById("guess");
-    
     const i1_color = document.querySelector('.item1');
     if (guessColor.value.charAt(0) == word.charAt(0)){
         i1_color.style.backgroundColor = 'green';
@@ -52,8 +51,16 @@ function color(){
     }else{
         i5_color.style.backgroundColor = 'grey';
     }
+    guessColor.value = "";
 }
 
-var button = document.getElementById("button");
-button.addEventListener('click', color);
 
+
+var button = document.getElementById("guess");
+let guessBox = button.value;
+button.addEventListener("keyup", function(event){
+    if (event.key === "Enter") {
+        event.preventDefault();
+        document.getElementById("button").click();
+    }
+});
