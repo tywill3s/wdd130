@@ -8,7 +8,7 @@ html {
   }
   body {
     min-height: 100vh;
-    background-color: rgb(14, 14, 14);
+    background-color: rgb(34, 34, 34);
     color: rgb(232, 232, 232);
     position: center;
   }
@@ -21,6 +21,52 @@ html {
     text-align: center;
   }
   
+  .grid-container{
+    font-family: 'Arial';
+    font-size: 30px;
+    display: grid;
+    color: black;
+    grid-template-columns: 1fr 100px 100px 100px 100px 100px 1fr;
+    grid-auto-rows: 100px;
+    row-gap: 5px;
+    column-gap: 5px;
+    text-align: center;
+    line-height: 3.5;
+    
+  }
+  .item1 {
+    background-color: gray;
+    grid-column: 2;
+    
+  }  
+
+  .item2 {
+    background-color: gray;
+    grid-column: 3;
+  }  
+
+  .item3 {
+    background-color: gray;
+    grid-column: 4;
+  } 
+
+  .item4 {
+    background-color: gray;
+    grid-column: 5;
+  } 
+
+  .item5 {
+    background-color: gray;
+    grid-column: 6;
+  }
+
+  .grid-item {
+    background-color: gray;
+    grid-column: 6;
+  }  
+
+
+
   header {
     padding: 2rem 2rem;
     margin: auto;
@@ -38,14 +84,16 @@ html {
   
   header h1 {
     color: rgb(251, 230, 190);
-    margin: auto;
+    margin-bottom: 0px;
+    margin-top: 0px;
     font-size: 60px;
   }
   
   header h3 {
     color: orangered;
-    margin: auto;
-    font-size: 30px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 20px;
     
   }
   
