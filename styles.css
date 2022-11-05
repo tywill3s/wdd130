@@ -11,10 +11,26 @@ body {
   background-color: rgb(14, 14, 14);
   text-align: center;
   color: white;
+  margin-top: 50px;
 }
 
 nav a{
   color: rgb(130, 22, 130);
+
+}
+
+@keyframes animation {
+  0%,100% { color: white;
+  font-size: 21px;
+  }
+  50% {
+    color:rgb(130, 22, 130);
+  }
+}
+  
+
+nav a:hover{
+  animation: animation 1.5s infinite;
 }
 
 nav p{
@@ -31,13 +47,6 @@ header h1 {
   color: rgb(251, 230, 190);
   margin: auto;
   font-size: 60px;
-}
-
-header h3 {
-  color: orangered;
-  margin: auto;
-  font-size: 30px;
-  
 }
 
 p {

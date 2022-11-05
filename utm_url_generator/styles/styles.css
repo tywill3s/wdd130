@@ -1,0 +1,99 @@
+body {
+    color: black;
+    font-family:'arial';
+    text-align: center;
+    margin-top: 200px;
+    margin-bottom: 100px;
+    background-color: rgb(202, 201, 201);
+}
+
+h1 {
+    font-size: 40px;
+    color: rgb(236, 234, 234);
+}
+
+p {
+    margin-top: 20px;
+    color: rgb(243, 235, 235);
+}
+body a {
+    color: grey;
+    text-align: center;
+    margin-top: 50px;
+
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr 20px 1fr 20px 1fr;
+    grid-template-rows: 1fr 43px 30px 100px 50px 50px 50px 20px;
+    color: black;
+    
+    
+}
+
+.title{
+    grid-column: 3;
+    grid-row: 1;
+}
+
+
+.prompt {
+    grid-row: 2;
+    grid-column: 3;
+    
+}
+
+
+
+.firstname {
+    grid-column: 3;
+    grid-row: 3;
+    text-align: center;
+    caret-color: transparent;
+    justify-content: center;
+}
+
+.button {
+    grid-row: 4;
+    grid-column: 3;
+}
+
+button {
+    color: black;
+    background-color: white;
+    border: 0px;
+    border-radius: 10px;
+}
+
+button:hover{
+    color: black;
+    background-color: grey;
+    border: 0px;
+    border-radius: 10px;
+    
+}
+
+.object {
+    grid-column: 3;
+    grid-row: 5;
+    background-color: white;
+    color:black;
+    border-radius: 100px;
+    font-family: 'Arial';
+    line-height: 1.1;
+}
+
+.border {
+    background-image: linear-gradient(rgb(0, 133, 241),skyblue);
+    grid-row: 1/7;
+    z-index: -1;
+    grid-column: 2/5;
+    border-radius: 30px;
+    text-shadow: 5px;
+    box-shadow: 0 0 10px black;
+}
+
+.border:hover{
+    background-color: white;
+}
