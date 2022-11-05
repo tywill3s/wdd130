@@ -15,8 +15,25 @@
         <div class="prompt"><p>Please type your name below:</p></div>
         <div class="firstname"><input id="firstName" ></input></div>
         <div class="button"><button id="button">Generate</button></div>
-        <div class="border"></div>
+        <div class="categories">
+            <div class="source">Source</div>
+            <div class="content">Content</div>
+
+            <div class="google"><button id="google_button" onclick="addSource('google', 'google_button')" >Google</button></div>
+            <div class="email"><button id="email_button" onclick="addSource('email', 'email_button')">Email List</button></div>
+            <div class="social"><button id="social_button" onclick="addSource('social', 'social_button')">Social Media</button></div>
+            <div class="link"><button id="link_button" onclick="addSource('link', 'link_button')">Direct Link</button></div>
+
+            <div class="affiliate"><button id="affiliate_button" onclick="addContent('affiliate', 'affiliate_button')">Affiliate Link</button></div>
+            <div class="facebook"><button id="facebook_button" onclick="addContent('facebook', 'facebook_button')">Facebook</button></div>
+            <div class="insta"><button id="insta_button" onclick="addContent('instagram', 'insta_button')">Instagram</button></div>
+            <div class="ppc"><button id="ppc_button" onclick="addContent('ppc', 'ppc_button')">PPC</button></div>
+
+        </div>
         <div class="object"><br><a id="output" ></a></div>
+        <div class="clear"><button id="clearButton" onclick="reset()">Clear</button></div>
+        <div class="border"><br><a id="border" ></a></div>
+
     </section>
     <script src="scripts/scripts.js" defer></script>
 </body>
