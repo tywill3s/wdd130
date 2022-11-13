@@ -70,7 +70,8 @@ body {
     font-family: Raleway, Arial, sans-serif;
     font-size: 22px;
     margin: 0;
-    padding: 0;     
+    padding: 0; 
+    grid-template-columns: 1fr 1fr 1fr;    
 }
 
 h2 {
@@ -231,6 +232,113 @@ footer .social img {
 main section img {
     box-sizing: border-box;
 }
+
+/* Subpage1 */
+
+
+.river-info-header {
+    text-align: center;
+    margin-top: 50px;
+    color:#345c4f;
+    font-size: 80px;
+    font-family: 'Bradley Hand';
+    
+}
+
+.river-info-countainer {
+    grid-column: 2;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 50px 1fr 125px 1fr 200px;
+}
+
+.river-info-nav {
+    grid-column: 2/5;
+    grid-row: 4;
+    display: grid;
+    grid-template-columns: 25px 1fr 1fr 1fr 25px;
+    grid-template-rows: 50px 300px 200px;
+    text-align: center;
+}
+
+
+.river1 {
+    grid-column:2;
+    grid-row: 1;
+}
+
+.river1-img {
+    grid-column: 2;
+    grid-row: 2;
+    text-align: center;
+}
+
+.river1-info{
+    text-align: center;
+    grid-column: 2;
+    grid-row: 3;
+}
+
+.river2 {
+    grid-column: 3;
+    grid-row: 1;
+}
+
+.river2-img {
+    grid-column: 3;
+    grid-row: 2;
+    text-align: center;
+
+}
+
+.river2-info{
+    text-align: center;
+    grid-column: 3;
+    grid-row: 3;
+}
+
+.river3 {
+    grid-column: 4;
+    grid-row: 1;
+}
+
+.river3-img {
+    grid-column: 4;
+    grid-row: 2;
+    text-align: center;
+
+
+}
+
+.river3-info{
+    text-align: center;
+    grid-column: 4;
+    grid-row: 3;
+}
+
+.river-info-card-img {
+    text-align: center;
+    grid-column: 3;
+    grid-row: 2;
+}
+.river-info-card-img:hover {
+    text-align: center;
+    grid-column: 3;
+    grid-row: 2;
+    background-color: rgb(210, 224, 125);
+}
+
+.river-info-icon {
+    text-align: center;
+    grid-column: 3;
+    grid-row: 3;
+}
+
+.subpage1-footer {
+    grid-column: 1/6;
+    grid-row: 5;
+}
+
 
 
 
