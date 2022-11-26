@@ -4,8 +4,6 @@
     grid-template-columns: 40px 1fr 1fr 1fr 40px;
 }
 
-
-
 nav {
     text-align: center;
     grid-column: 1;
