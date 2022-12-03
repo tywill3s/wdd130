@@ -44,7 +44,8 @@ h2 {
 
 .main-container {
     display: grid;
-    grid-template-columns: 1fr 750px 1fr
+    grid-template-columns: 1fr 750px 1fr;
+    grid-template-rows: 100px 350px 1fr;
 }
 
 .intro {
@@ -65,14 +66,36 @@ footer {
     background-color: bisque;
     grid-column: 2;
     border-radius: 50px;
+    grid-row: 2;
 }
 
 .image1 {
     margin-top: 50px;
     grid-column: 2;
     text-align: center;
+    grid-row: 3;
 }
 
 .img-edit {
     border-radius: 20px;
+}
+
+.product-container {
+    display: grid;
+    grid-template-columns: 1fr 750px 1fr;
+    grid-template-rows: 170px 400px 1fr;
+}
+
+.outro {
+    text-align: center;
+    grid-column: 2;
+    grid-row: 3;
+    background-color: bisque;
+    border-radius: 20px;
+}
+
+.image2 {
+    text-align: center;
+    grid-column: 2;
+    grid-row: 2;
 }
