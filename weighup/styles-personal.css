@@ -83,7 +83,7 @@ footer {
 .product-container {
     display: grid;
     grid-template-columns: 1fr 750px 1fr;
-    grid-template-rows: 170px 400px 1fr;
+    grid-template-rows: 170px 400px 150px 50px 100px 1fr;
 }
 
 .outro {
@@ -98,4 +98,18 @@ footer {
     text-align: center;
     grid-column: 2;
     grid-row: 2;
+}
+
+.other {
+    grid-column: 2;
+    grid-row: 5;
+    background-color: bisque;
+    border-radius:  20px;
+}
+.outro2 {
+    text-align: center;
+    grid-column: 2;
+    grid-row: 3;
+    background-color: lightblue;
+    border-radius: 20px;
 }

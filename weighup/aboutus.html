@@ -4,48 +4,43 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/weighup/styles/styles.css" />
+    <link rel="stylesheet" href="styles-personal.css">
     <title>About Us</title>
 </head>
 <body>
     <div class="header-container">
-        <header>
-            <img src="images/myLogo.png" alt="image for page">
-            <nav class = "special">
-                <a href="index.html">Home</a>        
-                <a href="aboutus.html">About Us</a>             
-                <a href="aboutproduct.html">About the Product</a>
-            </nav>
-            <img src="images/account.png" alt="image for page">
-        </header>
+        <div class="logo"><img src="images/myLogo.png" alt="image for page"></div>
+        <div class="special"><nav>
+            <a href="index.html">Home</a>        
+            <a href="aboutus.html">About Us</a>             
+            <a href="aboutproduct.html">About the Product</a>
+        </nav></div>
+        <div class="account"><img src="images/account.png" alt="image for page"></div>
     </div>
 
     <main>
-        <div class="main-container">
-            <br><br><br>
-            <p>About us Section</p>
-            <p>This is a placeholer to be able to style this section properly</p>
-            <br><br><br>
-            <img src="images/image3.avif" alt="image for page">
+        <div class="product-container">
+            <br>
+            <div class="intro">
+                <h2>About us</h2>
+                <p>We were a small company needing simple ways to track user traffic on our site. It took us far too long to discover UTM tags and how seamlessly they can be tracked on Google Analytics. So we decided to make an easy tool for those in a similar situation. </p>
+            </div><br>
+  
+            <br>
+            <div class="image2"><img class="img-edit" src="images/image5.jpg" alt="image for page"></div>
+            <div class= "outro2">
+                <h2>Donations</h2>
+                <p>We are a small organization working on this tool as a side project. If you find it helpful and decide you'd like to donate, please email us for further information. <strong>Thank you!</strong></p>
+            </div><br>
+            <div class= "other">
+                <h2>Share us!</h2>
+                <p>Know someone who needs our product? Share us with them and enter for a chance to win big!</p>
+            </div><br>
+            </div>
             <br><br><br>
 
 
         </div>
-        <h1>The Document Object</h1>
-        <h2>The createEvent() Method - MODIFIED BY TYLER WILLES</h2>
-
-        <p>The createEvent() method allows you to simulate events.</p>
-
-        <p>"myDiv" will get a new star every time you mouse over it:</p>
-
-        <div id="myDiv"
-        style="padding:50px;background-color:rgb(198, 198, 198);"
-        onmouseover="this.innerHTML += '-';">*</div>
-
-        <script>
-
-        </script>
-        <br><br>
        
 
     </main>
