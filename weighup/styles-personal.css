@@ -42,16 +42,8 @@ h2 {
 
 }
 
-.main-container {
-    display: grid;
-    grid-template-columns: 1fr 750px 1fr;
-    grid-template-rows: 100px 350px 1fr;
-}
 
-.intro {
-    text-align: center;
-    grid-column: 2;
-}
+
 
 footer {
     margin-top: 50px;
@@ -66,14 +58,14 @@ footer {
     background-color: bisque;
     grid-column: 2;
     border-radius: 50px;
-    grid-row: 2;
+    grid-row: 4;
 }
 
 .image1 {
     margin-top: 50px;
     grid-column: 2;
     text-align: center;
-    grid-row: 3;
+    grid-row: 5;
 }
 
 .img-edit {
@@ -83,8 +75,21 @@ footer {
 .product-container {
     display: grid;
     grid-template-columns: 1fr 750px 1fr;
-    grid-template-rows: 170px 400px 150px 50px 100px 1fr;
+    grid-template-rows: 170px 10px 150px 50px 100px 1fr;
 }
+
+.main-container {
+    display: grid;
+    grid-template-columns: 1fr 750px 1fr;
+    grid-template-rows: 60px 60px 150px 350px 1fr;
+}
+
+.intro {
+    text-align: center;
+    grid-column: 2;
+    grid-row: 3;
+}
+
 
 .outro {
     text-align: center;
@@ -94,7 +99,46 @@ footer {
     border-radius: 20px;
 }
 
-.image2 {
+h1 {
+    text-align: center;
+    font-family: Arial;
+    color:rgb(66, 66, 66);
+    grid-row: 1;
+    grid-column: 2;
+}
+
+h3 {
+    color:rgb(66, 66, 66);
+    text-align: center;
+    font-family: Arial;
+    grid-column: 2;
+    grid-row: 2;
+}
+
+/* About Us Page */
+
+.main-container_aboutus {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 400px 150px 20px 1fr;
+
+}
+
+.intro_aboutus {
+    text-align: center;
+    grid-row: 1;
+    grid-column: 2;
+}
+
+.outro_aboutus {
+    text-align: center;
+    grid-column: 2;
+    grid-row: 3;
+    background-color: lightblue;
+    border-radius: 20px;
+}
+
+.image_aboutus {
     text-align: center;
     grid-column: 2;
     grid-row: 2;
@@ -106,10 +150,52 @@ footer {
     background-color: bisque;
     border-radius:  20px;
 }
-.outro2 {
+
+.product-container_aboutus {
+    display: grid;
+    grid-template-columns: 1fr 750px 1fr;
+    grid-template-rows: 170px 10px 150px 50px 100px 1fr;
+}
+
+
+/* About the Product Page */
+
+.main-container_aboutproduct {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 400px 150px 20px;
+
+}
+
+.intro_aboutproduct {
+    text-align: center;
+    grid-row: 1;
+    grid-column: 2;
+}
+
+.outro_aboutproduct {
     text-align: center;
     grid-column: 2;
     grid-row: 3;
     background-color: lightblue;
     border-radius: 20px;
+}
+
+.image_aboutproduct {
+    text-align: center;
+    grid-column: 2;
+    grid-row: 2;
+}
+
+.other {
+    grid-column: 2;
+    grid-row: 5;
+    background-color: bisque;
+    border-radius:  20px;
+}
+
+.product-container_aboutus {
+    display: grid;
+    grid-template-columns: 1fr 750px 1fr;
+    grid-template-rows: 170px 10px 150px 50px 100px 1fr;
 }
